@@ -1,0 +1,15 @@
+.outerDiv {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3px;
+}
+
+.in {
+    width: 250px;
+}
+
+.btn {
+    width: 42px;
+    margin-right: 10px;
+}

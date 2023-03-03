@@ -1,0 +1,26 @@
+.outerDiv {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(48, 44, 41, 0.432);
+    padding: 5px;
+    max-width: 300px;
+    margin-bottom: 5px;
+}
+
+.outerDiv:hover {
+    background-color: rgba(30, 30, 30, 0.232);
+}
+
+.btn {
+    border: 1px solid red;
+    align-self: flex-start;
+}
+
+.p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 110%;
+    width: 240px;
+    word-wrap: break-word;
+}
