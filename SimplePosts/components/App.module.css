@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.doComments {
+    margin-left: 20px;
+}
+
+.commentComponent {
+    position: relative;
+    top: 5px;
+    margin-bottom: 10px;
+}

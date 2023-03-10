@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .mainDiv {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+} */
+
+.bodyComments {
+    border: 1px solid black;
+    display: inline-block;
+    width: 330px;
+    height: 175px;
+    border-radius: 8px;
+    background-color: gainsboro;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.header > strong {
+    width: auto;
+    color: black;
+}
+
+.userPhoto {
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 5px;
+}
+
+.userName {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    color: black;
+}
+
+.makeComment {
+    position: relative;
+    left: 9px;
+    top: 13px;
+    background-color: gainsboro;
+    color: black;
+    border:  none;
+    resize:  none;
+    outline: none;
+    caret-color: black;
+    caret-shape: underscore;
+}
+
+.btnPublicar {
+    position: relative;
+    /* top: 13px;
+    left: 4px; */
+    width: 98%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btnPublicar:hover {
+    background-color: rgb(44, 122, 201);
+}

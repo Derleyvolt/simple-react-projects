@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fieldComment {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    min-height: 60px;
+    min-width: 200px;
+    max-width: 295px;
+    border-radius: 8px;
+    background-color: gainsboro;
+}
+
+.userPhoto {
+    position: relative;
+    border-radius: 100%;
+    left: 3px;
+}
+
+.userName {
+    position: relative;
+    left: 5px;
+    top: 2px;
+    font-size: smaller;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.comment {
+    margin: 10px 0 10px 10px;
+}
+
+.btnsDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btnLike {
+    position: relative;
+    left: 15px;
+    top: 3px;
+}
+
+.btnComment {
+    position: relative;
+    left: 25px;
+    top: 3px;
+}
+
+.btnComment, .btnLike {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 67%;
+}

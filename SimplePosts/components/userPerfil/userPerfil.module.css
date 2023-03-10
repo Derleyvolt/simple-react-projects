@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+
+.userInfo {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.btn {
+    font-size: 10px;
+    width: auto;
+    margin: 3px 0 0 0;
+}
+
+.userFriendsDiv {
+    margin-top: 5px;
+}
+
+.userPhoto {
+    border: 1px solid #555;
+}
+
+.userPhotoDiv {
+    margin: 0;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside {
+    width: auto;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3px;
+    background-color:gainsboro;
+}
